@@ -31,7 +31,7 @@ Project Milestone:<br>
     <b>Milestone 2 - Uploading Data in Hive</b><br>
     <ul>
       <li>
-        Slide -> MILESTONE 2 - STORE DATA INTO HIVE DATA WAREHOUSE
+        Slide -> <a href="https://github.com/muhdamirulsamsul/DataMining/blob/master/MILESTONE%202%20-%20STORE%20DATA%20INTO%20HIVE.pdf">MILESTONE 2 - STORE DATA INTO HIVE DATA WAREHOUSE</a>
       </li>
       <li>
         Slide -> INSTALLATION & UPDATES
