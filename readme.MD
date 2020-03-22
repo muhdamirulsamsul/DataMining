@@ -34,6 +34,9 @@ Project Milestone:<br>
         Slide -> MILESTONE 2 - STORE DATA INTO HIVE DATA WAREHOUSE
       </li>
       <li>
+        Slide -> INSTALLATION & UPDATES
+      </li>
+      <li>
         Youtube Link -> <a href="https://youtu.be/A2JoxsWwvZ4">here</a>
       </li>
     </ul>
