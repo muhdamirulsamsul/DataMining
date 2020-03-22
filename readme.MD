@@ -14,13 +14,13 @@ Project Milestone:<br>
     <b>Milestone 1 - Web Crawling</b><br>
     <ul>
       <li>
-        Python Code -> webcrawl.py
+        Python Code -> <a href="https://github.com/muhdamirulsamsul/DataMining/blob/master/webcrawl.py">webcrawl.py</a>
       </li>
       <li>
-        Data csv -> trytry.csv
+        Data csv -> <a href="https://github.com/muhdamirulsamsul/DataMining/blob/master/wtiprice.csv">wtiprice.csv</a>
       </li>
       <li>
-        Slide -> MILESTONE 1 - WEB SCRAPING
+        Slide -> <a href="https://github.com/muhdamirulsamsul/DataMining/blob/master/MILESTONE%201%20-%20WEB%20SCRAPING.pdf">MILESTONE 1 - WEB SCRAPING</a>
       </li>
       <li>
         Youtube Link - > <a href="https://youtu.be/6_hUi_ktaWw">here</a>
@@ -34,7 +34,7 @@ Project Milestone:<br>
         Slide -> <a href="https://github.com/muhdamirulsamsul/DataMining/blob/master/MILESTONE%202%20-%20STORE%20DATA%20INTO%20HIVE.pdf">MILESTONE 2 - STORE DATA INTO HIVE DATA WAREHOUSE</a>
       </li>
       <li>
-        Slide -> INSTALLATION & UPDATES
+        Slide -> <a href="https://github.com/muhdamirulsamsul/DataMining/blob/master/MILESTONE%202%20-%20INSTALLATION%20AND%20PROGRESS%20UPDATES.pdf">INSTALLATION & UPDATES</a>
       </li>
       <li>
         Youtube Link -> <a href="https://youtu.be/A2JoxsWwvZ4">here</a>
