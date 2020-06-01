@@ -21,5 +21,7 @@ Uploading CSV File to Hive</a>
 
 
 <b>Milestone 3: Connecting Hive to Python</b>
+* Python code: <a href="https://github.com/muhdamirulsamsul/DataMining/blob/master/ConnHive.ipynb">here</a>
 * Instruction: <a href="https://github.com/muhdamirulsamsul/DataMining/blob/master/howpyhive.txt">Installing PyHive</a>
 * Youtube video: <a href="https://youtu.be/vsGvP_vGuTo">Connect to Apache Hive using PyHive</a>
+
