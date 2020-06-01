@@ -1,0 +1,42 @@
+# How to connect to Apache Hive using pyhive
+
+# Configure hiveserver2
+1. Add proxy user in coresite.xml in hadoop as follows:
+	<property>
+		<name>hadoop.proxyuser.<username>.groups</name>
+		<value>*</value>
+	</property>
+	<property>
+		<name>hadoop.proxyuser.<username>.hosts</name>
+		<value>*</value>
+	</property>
+
+2. Set the hiveserver2 at localhost in hive-site.xml as follows:
+	<property>
+		<name>hive.server2.thrift.bind.host</name>
+		<value>localhost</value>
+	</property>
+	<property>
+		<name>hive.server2.thrift.port</name>
+		<value>10000</value>
+	</property>
+
+3. hadoop fs -chmod 777 /tmp
+4. run in terminal: hiveserver2 &
+5. try connecting to hiveserver2 via beeline:
+	beeline
+	beeline>!connect jdbc:hive2://localhost:10000
+6. open http://localhost:10002
+
+# Install pyhive
+1. Install required packages for PyHive to work properly.
+	a. gcc:
+	sudo apt-get install gcc
+	b. libsasl2-dev:
+	sudo apt-get install libsasl2-dev
+	c. sasl:
+	pip3 install sasl
+	d. thrift sasl
+	pip3 install thrift_sasl
+2. Install pyhive:
+	pip3 install pyhive
