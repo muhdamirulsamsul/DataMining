@@ -1,3 +1,10 @@
+## Crude Oil WTI and Brent Price Prediction
+Prepared by: Muhammad Amirul (17202062), Zaimie Azmin (17202336)
+Instructor: Prof. Dr. Teh Ying Wah
+Subject: WQD7005 Data Mining
+
+
+
 <h><b>Crude Oil WTI and Brentt Price Prediction</b></h>
 <ul>
   <li>
