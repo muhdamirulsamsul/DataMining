@@ -18,3 +18,8 @@ This project is divided into 4 milestone. Starting from data collection up until
   * <a href="https://github.com/muhdamirulsamsul/DataMining/blob/master/MILESTONE%202%20-%20INSTALLATION%20AND%20PROGRESS%20UPDATES.pdf">INSTALLATION & UPDATES</a>
 * Youtube video: <a href="https://youtu.be/A2JoxsWwvZ4">
 Uploading CSV File to Hive</a>
+
+
+<b>Milestone 3: Connecting Hive to Python</b>
+* Instruction: <a href="https://github.com/muhdamirulsamsul/DataMining/blob/master/howpyhive.txt">Installing PyHive</a>
+* Youtube video: <a href="https://youtu.be/vsGvP_vGuTo">Connect to Apache Hive using PyHive</a>
