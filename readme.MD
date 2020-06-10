@@ -25,3 +25,9 @@ Uploading CSV File to Hive</a>
 * Instruction: <a href="https://github.com/muhdamirulsamsul/DataMining/blob/master/howpyhive.txt">Installing PyHive</a>
 * Youtube video: <a href="https://youtu.be/vsGvP_vGuTo">Connect to Apache Hive using PyHive</a>
 
+
+<b>Milestone 4: Modeling</b>
+* Python code: 
+<a href="https://github.com/muhdamirulsamsul/DataMining/blob/master/WTI%20Prediction%20(LSTM).ipynb">Predicting WTI Price using LSTM</a> &
+<a href="https://github.com/muhdamirulsamsul/DataMining/blob/master/WTI%20Closing%20Price%20Prediction%20(SVM%20%26%20LR).ipynb">Predicting WTI Price using SVM and LR</a>
+
