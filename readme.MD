@@ -1,4 +1,4 @@
-## Crude Oil WTI and Brent Price Prediction
+## WTI and Brent Prices Prediction
 <b>Prepared by</b>: Muhammad Amirul (17202062), Zaimie Azmin (17202336)
 <br/><b>Instructor</b>: Prof. Dr. Teh Ying Wah
 <br/><b>Subject</b>: WQD7005 Data Mining
@@ -32,3 +32,5 @@ Uploading CSV File to Hive</a>
 <a href="https://github.com/muhdamirulsamsul/DataMining/blob/master/WTI%20Closing%20Price%20Prediction%20(SVM%20%26%20LR).ipynb">Predicting WTI Price using SVM and LR</a>
 
 <b>Milestone 5: Deployment</b>
+* Youtube video: <a href="https://youtu.be/BscIYNKPtC0">Deploying Machine Learning Model in Mobile App using Kivy</a>
+*
