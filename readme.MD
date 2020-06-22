@@ -33,4 +33,4 @@ Uploading CSV File to Hive</a>
 
 <b>Milestone 5: Deployment</b>
 * Youtube video: <a href="https://youtu.be/BscIYNKPtC0">Deploying Machine Learning Model in Mobile App using Kivy</a>
-*
+* Source code: <a href="https://github.com/muhdamirulsamsul/DataMining/tree/master/kivy_project">kivy_project</a>
