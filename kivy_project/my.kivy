@@ -1,0 +1,379 @@
+<P>:
+    GridLayout:
+        size_hint: None, None
+        pos_hint: {'center_x': .5, 'center_y': .6}
+        cols: 1
+        padding: 10, 5,0,10
+        size: 390, 300
+        row_force_default: True
+        row_default_height: 49
+        Label:
+            text:"Instructions: "
+            text_size: self.size
+            halign: 'left'
+        Label:
+            text: "1. Make sure your device is connected to the internet or else this app will not work properly."
+            text_size: self.size
+            halign: 'left'
+        Label:
+            text:"2. Select a commodity that you would like to forecast. The forecast will be 25 days into the future."
+            text_size: self.size
+            halign: 'left'
+        Label:
+            text_size: self.size
+            halign: 'left'
+            text: "3. Select a machine learning model that you would like to use."
+        Label:
+            text_size: self.size
+            halign: 'left'
+            text: "4. Click the 'Apply' button to apply all the settings and a graph will apear on the screen."
+        Label:
+            text_size: self.size
+            halign: 'left'
+            text: "5. Note that it will take a few seconds for the graph to appear. Please be patience :D"
+        Label:
+            text_size: self.size
+            halign: 'left'
+            text: "*Click anywhere outside this popup to close it"
+WindowManager:
+    FirstWindow:
+    SecondWindow:
+
+<FirstWindow>:
+    name: "first"
+    canvas:
+        Color:
+            rgb: [21/255,19/255,43/255]
+            #rgb: [13/255,11/255,33/255]
+        Rectangle:
+            pos: self.pos
+            size: self.size
+    FloatLayout:
+        GridLayout:
+            pos_hint: {'center_x': .5, 'center_y': .5}
+            size_hint: None, None
+            size: 760, 400
+            cols: 2
+            FloatLayout:
+                GridLayout:
+
+                    pos_hint: {'center_x': .5, 'center_y': .5}
+                    size_hint: None, None
+                    size: 376, 270
+                    cols:1
+                    row_force_default: True
+                    row_default_height: 135
+                    GridLayout:
+                        cols: 1
+                        row_force_default: True
+                        row_default_height:45
+                        #FloatLayout:
+                        Label:
+                                # pos_hint: {'center_x': .5, 'center_y': 0.25}
+                                # size_hint: None, None
+                            markup: True
+                            font_size: 16
+                                #text_size: self.size
+                                #halign:'left'
+                                # [color=ff2fcc]
+                            text: "LINEAR REGRESSION [color=ff2fcc]|[/color] SUPPORT VECTOR MACHINE"
+                            text_size: self.size
+                            halign: 'left'    #font_name: 'Rubik-Light.ttf'
+                        Label:
+                            text: "Crude Oil Price Forecast"
+                            font_name: 'Rubik-Medium.ttf'
+                            font_size: 32
+                            text_size: self.size
+                            halign: 'left'
+                        Label:
+                            # canvas:
+                            #     Color:
+                            #         rgb: [255/255,255/255,255/255]
+                            #     Rectangle:
+                            #         pos: self.pos
+                            #         size: self.size
+                            markup: True
+                            text_size: self.size
+                            halign: 'left'
+                            text: "Forecast the [b]WTI[/b] and [b]Brent[/b] crude oil prices" + "\nusing [b]machine learning[/b] model."
+
+                                #size_hint: None, None
+                    # GridLayout:
+                    #     cols: 1
+                    #     padding: 94,0,94,0
+                        # canvas:
+                        #     Color:
+                        #         rgb: [255/255,255/255,255/255]
+                        #     Rectangle:
+                        #         pos: self.pos
+                        #         size: self.size
+                        # row_force_default: True
+                        # row_default_height: 25
+
+                    # GridLayout:
+                    #     # pos_hint: {'center_x': .5, 'center_y': 1}
+                    #     # size_hint: None, None
+                    #     # size: 376, 45
+                    #     cols: 1
+                    #     row_default_height:45
+                        # canvas.before:
+                        #     Color:
+                        #         rgba: (255/255,47/255,204/255,1)  # visual feedback of press
+                        #     RoundedRectangle:
+                        #         pos: self.pos
+                        #         size: self.size
+                        #         radius: [10,]
+                    GridLayout:
+                        cols: 1
+                        row_force_default: True
+                        row_default_height:35
+                        padding: 0,15,180,15
+                        # canvas:
+                        #     Color:
+                        #         rgb: [5/255,4/255,8/255]
+                        #     Rectangle:
+                        #         pos: self.pos
+                        #         size: self.size
+                        Button:
+                            markup: True
+                            font_name: 'Rubik-Medium.ttf'
+                            text:"Getting Started  >"
+                            font_size: 16
+                            background_color: 0,0,0,0  # the last zero is the critical on, make invisible
+                            canvas.before:
+                                Color:
+                                    rgba: (255/255,47/255,204/255,1) if self.state=='normal' else (209/255,36/255,209/255,1)  # visual feedback of press
+                                RoundedRectangle:
+                                    pos: self.pos
+                                    size: self.size
+                                    radius: [8,]
+                            on_release:
+                                app.root.current = 'second'
+                                root.manager.transition.direction = 'left'
+                                root.next()
+            FloatLayout:
+                Image:
+                    pos_hint: {'center_x': .5, 'center_y': .5}
+                    source: 'g8395.png'
+                    size: self.texture_size
+                    keep_ratio: True
+
+<SecondWindow>:
+
+    wti: wti
+    brent: brent
+    lr: lr
+    svm: svm
+    displ:displ
+    output: output
+    #linplot: linplot
+    gtitle: gtitle
+    name: "second"
+    canvas:
+        Color:
+            rgb: [21/255,19/255,43/255]
+        Rectangle:
+            pos: self.pos
+            size: self.size
+    FloatLayout:
+        GridLayout:
+
+            padding: 20,20,20,20
+            pos_hint: {'center_x': .5, 'center_y': .5}
+            size_hint: None, None
+            size: 760, 400
+            cols:2
+            row_force_default: True
+            row_default_height: 300#150
+            canvas:
+                Color:
+                    rgba: [255/255,255/255,255/255,0.03]
+                RoundedRectangle:
+                    pos: self.pos
+                    size: self.size
+
+            GridLayout:
+                padding: 80,40,0,0
+                # canvas:
+                #     Color:
+                #         rgb: [0/255,0/255,0/255]
+                #     Rectangle:
+                #         pos: self.pos
+                #         size: self.size
+                row_force_default: True
+                row_default_height: 40
+                cols: 1
+                GridLayout:
+                    cols: 1
+                    padding: 0,0,0,7
+                    Label:
+                        markup: True
+                        text: " Select a commodity:"
+                        font_name: 'Rubik-Medium.ttf'
+                        font_size: 15.5
+                        text_size: self.size
+                        halign: 'left'
+                GridLayout:
+                    cols: 1
+                    # padding: 0,0,150,0
+                    GridLayout:
+                        cols: 2
+
+                        ToggleButton:
+                            id: wti
+                            text: "WTI"
+                            group: "commodity"
+                            font_name: 'Rubik-Medium.ttf'
+                            size_hint: None, None
+                            size: 90, 37.5
+
+
+                            on_press: root.toggle1()
+                            background_color: (215/255,215/255,215/255,1) if wti.state=='normal' else (1,1,1,1)
+
+                            #background_color: (105/255,105/255,105/255,1) if wti.state == "normal" else (255/255,47/255,204/255,1)
+                            #on_state: root.oil_get()
+                        ToggleButton:
+                            id: brent
+                            markup: True
+                            text: "Brent"
+                            size_hint: None, None
+                            size: 90, 37.5
+                            group: "commodity"
+                            font_name: 'Rubik-Medium.ttf'
+                            background_color: (215/255,215/255,215/255,1) if brent.state=='normal' else (1,1,1,1)
+                            on_press: root.toggle1()
+
+                            # background_normal: ''
+                            #background_normal: (255/255,47/255,204/255,1)
+
+                            # background_color: (105/255,105/255,105/255,1) if brent.state == "normal" else (255/255,47/255,204/255,1)
+
+                        #on_state: root.oil_get()
+                GridLayout:
+                    cols: 1
+                    padding: 0,0,0,7
+                    Label:
+                        markup: True
+                        text: " Select a model:"
+                        font_name: 'Rubik-Medium.ttf'
+                        text_size: self.size
+                        font_size: 15.5
+                        halign: 'left'
+                GridLayout:
+                    cols: 1
+                    #padding: 0,0,20,0
+                    GridLayout:
+                        cols:2
+                        ToggleButton:
+                            id: lr
+                            text: "LR"
+                            group: "model"
+                            font_name: 'Rubik-Medium.ttf'
+                            size_hint: None, None
+                            size: 90, 37.5
+                            background_color: (215/255,215/255,215/255,1) if lr.state=='normal' else (1,1,1,1)
+                            on_press: root.toggle2()
+                            #on_state: print(self.state)
+                        ToggleButton:
+                            id: svm
+                            markup: True
+                            font_name: 'Rubik-Medium.ttf'
+                            size_hint: None, None
+                            size: 90, 37.5
+                            background_color: (215/255,215/255,215/255,1) if svm.state=='normal' else (1,1,1,1)
+                            text: "SVM"
+                            group: "model"
+                            on_press: root.toggle2()
+                Label:
+                    text: ' '
+                GridLayout:
+                    cols: 1
+                    # padding: 0,0,180,0
+                    Button:
+                        id: output
+                        size_hint: None, None
+                        size: 180, 37.5
+                        background_color: (215/255,215/255,215/255,1) if output.state=='normal' else (1,1,1,1)
+                        text: 'Apply'
+                        font_name: 'Rubik-Medium.ttf'
+                        on_release: root.oil_get()
+                    Button:
+                        size_hint: None, None
+                        size: 180, 37.5
+                        background_down: ''
+                        background_normal: ''
+                        background_color: 0,0,0,0
+                        text: '< Previous page'
+                        font_name: 'Rubik-Medium.ttf'
+                        on_release:
+                            app.root.current = "first"
+                            root.manager.transition.direction = "right"
+                    # size_hint: None, None
+                    # size: 105, 37.5
+            GridLayout:
+                cols: 1
+                # Button:
+                #     text: 'huhuhu'
+                #     on_press: print(self.size)
+                #     size_hint: None,None
+                #     size: 360, 37.5
+
+                GridLayout:
+                    cols: 1
+                    size_hint: None, None
+                    size: 360, 40
+                    padding: 27,0,27,0
+                    Label:
+                        id: gtitle
+                        
+                        text: ' '
+                        size_hint: None, None
+                        size: 334, 37.5
+
+                Graph:
+                    id: displ
+                    #xlabel:''
+                    ylabel:' '
+
+                    #plot: root.MeshLinePlot()
+
+                    # x_ticks_minor:5
+                    x_ticks_major:25
+                    # y_ticks_major:12.5
+                    # y_grid_label:True
+                    x_grid_label:True
+                    x_grid:True
+                    # ymin: 25
+                    # ymax: 45
+                    # y_grid:True
+                    # xmin:-0
+                    xmax:50
+            # Graph:
+            #     id: displ
+            #     #xlabel:''
+            #     ylabel:' '
+            #
+            #     #plot: root.MeshLinePlot()
+            #
+            #     # x_ticks_minor:5
+            #     x_ticks_major:25
+            #     # y_ticks_major:1
+            #     y_grid_label:True
+            #     # x_grid_label:True
+            #     # padding:5
+            #     x_grid:True
+            #     # y_grid:True
+            #     # xmin:-0
+            #     xmax:50
+
+
+            #
+            #
+            #
+            #
+            # Button:
+            #     text: "Back"
+            #     on_release:
+            #         app.root.current = "first"
+            #         root.manager.transition.direction = "right"
