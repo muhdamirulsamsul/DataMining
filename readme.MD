@@ -14,7 +14,7 @@ This project is divided into 4 milestone. Starting from data collection up until
 
 <b>Milestone 1: Web Crawling</b>
 
-In this part, we will crawl the data needed using some libraries from Python like BeautifulSoup and Selenium. Further explanation can be seen in the following links.
+In this part, we crawled the data needed using some libraries from Python like BeautifulSoup and Selenium. selenium is used to open the browser and wait for the webiste to fully load all the javascript. Then, we used BeatifulSoup to get the html tag that we desired.Further explanation can be seen in the following links.
 * Python code: <a href="https://github.com/muhdamirulsamsul/DataMining/blob/master/webcrawl.py">webcrawl.py</a>
 * Data crawled in csv format: <a href="https://github.com/muhdamirulsamsul/DataMining/blob/master/wtiprice.csv">wtiprice.csv</a>
 * Slides: <a href="https://github.com/muhdamirulsamsul/DataMining/blob/master/MILESTONE%201%20-%20WEB%20SCRAPING.pdf">MILESTONE 1 - WEB SCRAPING</a>
