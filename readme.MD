@@ -4,11 +4,13 @@
 <br/><b>Subject</b>: WQD7005 Data Mining
 
 ------------------------------------------------------------------------------------------------
+<div style="text-alig:justify">
 The world depends on crude oil as it is an essential source of energy. However, crude oil is a non-renewable energy which means it comes from sources that will not be replenished. Crude oil is an important source of energy due to its myriad uses in daily life. Crude oil can be refined and transformed into petrochemicals and other more useful products through a process known as petroleum refining process. It is a process used by oil refinery or petroleum refinery to produce products such as liquified petroleum gas(LPG), gasoline, jet fuel, diesel fuel, industrial fuel and asphalt base. Oil refineries use many processing units and one of them is known as crude oil distillation unit (CDU) which is the first processing unit in almost all oil refineries. The CDU distils crude oil to separate it into fractions of different boiling points which then are processed further in other processing units. Automobiles need oil to operate. Production of myriad household goods is using oil-based plastics as raw materials. Thus, the whole world is depending on crude oil. 
 
 Crude oil is one of the commodities sold in the market with volatile price which plays important roles in the global economy. There are several crude oil prices traded internationally and one of them is West Texas Intermediate (WTI). Fluctuation of crude oil price affects both oil producing and non-oil producing countries. High crude oil price adds burden to consumers especially those with low wages. Both poor and rich people rely on automobiles—need fuel to operate—for commuting which means spending in fuel for automobiles is unavoidable as it is a necessary spending even if the crude oil price rises. High crude oil price affects directly to the poor people. Oil exporters and oilfield service companies are benefited from increasing crude oil price but face huge difficulties when the price falls. Changes in crude oil price even shift the political landscape all over the world. Changing crude oil price affects significantly to the world economy. Knowing that many things are affected by the fluctuation of crude oil price,forecasting crude oil price can be very useful to anyone who interested in investing in the crude oil market. 
 
 This project is divided into 4 milestone. Starting from data collection up until model deployment. Following are the updates for each milestone:
+</div>
 
 <b>Milestone 1: Web Crawling</b>
 * Python code: <a href="https://github.com/muhdamirulsamsul/DataMining/blob/master/webcrawl.py">webcrawl.py</a>
