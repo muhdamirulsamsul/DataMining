@@ -18,9 +18,7 @@ This project is divided into 4 milestone. Starting from data collection up until
 
 
 <b>Milestone 2: Uploading Data into Hive</b>
-* Slides:
-  * <a href="https://github.com/muhdamirulsamsul/DataMining/blob/master/MILESTONE%202%20-%20STORE%20DATA%20INTO%20HIVE.pdf">MILESTONE 2 - STORE DATA INTO HIVE DATA WAREHOUSE</a>
-  * <a href="https://github.com/muhdamirulsamsul/DataMining/blob/master/MILESTONE%202%20-%20INSTALLATION%20AND%20PROGRESS%20UPDATES.pdf">INSTALLATION & UPDATES</a>
+* Slides: <a href="https://github.com/muhdamirulsamsul/DataMining/blob/master/MILESTONE%202%20-%20STORE%20DATA%20INTO%20HIVE.pdf">MILESTONE 2 - STORE DATA INTO HIVE DATA WAREHOUSE</a> & <a href="https://github.com/muhdamirulsamsul/DataMining/blob/master/MILESTONE%202%20-%20INSTALLATION%20AND%20PROGRESS%20UPDATES.pdf">INSTALLATION & UPDATES</a>
 * Youtube video: <a href="https://youtu.be/A2JoxsWwvZ4">
 Uploading CSV File to Hive</a>
 
