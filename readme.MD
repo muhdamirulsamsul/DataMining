@@ -3,7 +3,7 @@
 <br/><b>Instructor</b>: Prof. Dr. Teh Ying Wah
 <br/><b>Subject</b>: WQD7005 Data Mining
 
------------------------------------------
+## 
 
 The world depends on crude oil as it is an essential source of energy. However, crude oil is a non-renewable energy which means it comes from sources that will not be replenished. Crude oil is an important source of energy due to its myriad uses in daily life. Crude oil can be refined and transformed into petrochemicals and other more useful products through a process known as petroleum refining process. It is a process used by oil refinery or petroleum refinery to produce products such as liquified petroleum gas(LPG), gasoline, jet fuel, diesel fuel, industrial fuel and asphalt base. Oil refineries use many processing units and one of them is known as crude oil distillation unit (CDU) which is the first processing unit in almost all oil refineries. The CDU distils crude oil to separate it into fractions of different boiling points which then are processed further in other processing units. Automobiles need oil to operate. Production of myriad household goods is using oil-based plastics as raw materials. Thus, the whole world is depending on crude oil. 
 
