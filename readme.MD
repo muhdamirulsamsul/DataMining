@@ -51,6 +51,7 @@ Once we done with the modelling, it's time to deploy our model in Kivy and Flask
 * Youtube video: <a href="https://youtu.be/BscIYNKPtC0">Deploying Machine Learning Model in Mobile App using Kivy</a>
 * Source code: <a href="https://github.com/muhdamirulsamsul/DataMining/tree/master/kivy_project">kivy_project</a> & <a href="https://github.com/MYUMDATASCIENCE/DATAMINING/tree/master/MILESTONE5">Flask</a>
 * Visit our website: http://wqd190018.pythonanywhere.com/
+* Slide: <a href="https://github.com/MYUMDATASCIENCE/DATAMINING/blob/master/MILESTONE%205%20-%20DOCUMENTATION%20AND%20SCREENSHOT.pdf">here</a>
 
 Some of my apps display:
 
