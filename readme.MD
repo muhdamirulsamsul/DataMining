@@ -12,7 +12,7 @@ Crude oil is one of the commodities sold in the market with volatile price which
 This project is divided into 4 milestone. Starting from data collection up until model deployment. Following are the updates for each milestone:
 
 
-<b>Milestone 1: Web Crawling</b>
+<b>Milestone 1:</b> Web Crawling
 
 In this part, we crawled the data needed using some libraries from Python like BeautifulSoup and Selenium. selenium is used to open the browser and wait for the webiste to fully load all the javascript. Then, we used BeatifulSoup to get the html tag that we desired. Further explanation can be seen in the following links.
 * Python code: <a href="https://github.com/muhdamirulsamsul/DataMining/blob/master/webcrawl.py">webcrawl.py</a>
@@ -21,7 +21,7 @@ In this part, we crawled the data needed using some libraries from Python like B
 * Youtube video: <a href="https://youtu.be/6_hUi_ktaWw">Web crawling using python</a>
 
 
-<b>Milestone 2: Uploading Data into Hive</b>
+<b>Milestone 2:</b> Uploading Data into Hive
 
 Apache Hive is an open software in which its processing uses MapReduce. It is easy to adapt with Hive since it use SQL-like language. Further explanation can be seen in the following links.
 * Slides: <a href="https://github.com/muhdamirulsamsul/DataMining/blob/master/MILESTONE%202%20-%20STORE%20DATA%20INTO%20HIVE.pdf">MILESTONE 2 - STORE DATA INTO HIVE DATA WAREHOUSE</a> & <a href="https://github.com/muhdamirulsamsul/DataMining/blob/master/MILESTONE%202%20-%20INSTALLATION%20AND%20PROGRESS%20UPDATES.pdf">INSTALLATION & UPDATES</a>
@@ -29,7 +29,7 @@ Apache Hive is an open software in which its processing uses MapReduce. It is ea
 Uploading CSV File to Hive</a>
 
 
-<b>Milestone 3: Connecting Hive to Python</b>
+<b>Milestone 3:</b> Connecting Hive to Python
 
 Once our data is inserted in Hive, we can acces it through Python by using library named PyHive. PyHive will connect to HiveServer2 and we will be able to write query from Python and recieve the data easily.
 * Python code: <a href="https://github.com/muhdamirulsamsul/DataMining/blob/master/ConnHive.ipynb">here</a>
@@ -37,15 +37,16 @@ Once our data is inserted in Hive, we can acces it through Python by using libra
 * Youtube video: <a href="https://youtu.be/vsGvP_vGuTo">Connect to Apache Hive using PyHive</a>
 
 
-<b>Milestone 4: Modeling</b>
+<b>Milestone 4:</b> Modeling
 
 This part focusses on modeling the price prediction fo crude oil prices. We used Support Vector Machine (SVM), Linear Regresion, as well as Long Short-Term Memory algorithm to create the model. Step by step on how to do each modelling is shared in the links below:
 * Python code: 
 <a href="https://github.com/muhdamirulsamsul/DataMining/blob/master/WTI%20Prediction%20(LSTM).ipynb">Predicting WTI Price using LSTM</a> &
 <a href="https://github.com/muhdamirulsamsul/DataMining/blob/master/WTI%20Closing%20Price%20Prediction%20(SVM%20%26%20LR).ipynb">Predicting WTI Price using SVM and LR</a>
 
-<b>Milestone 5: Deployment</b>
+<b>Milestone 5:</b> Deployment
 
-Once we done with the modelling, it's time to deploy our model in Kivy and Flask. Both Kivy and Flask are framework for application and web development. 
+Once we done with the modelling, it's time to deploy our model in Kivy and Flask. Kivy and Flask are framework for application and web development. 
 * Youtube video: <a href="https://youtu.be/BscIYNKPtC0">Deploying Machine Learning Model in Mobile App using Kivy</a>
 * Source code: <a href="https://github.com/muhdamirulsamsul/DataMining/tree/master/kivy_project">kivy_project</a>
+* Visit our website: http://wqd190018.pythonanywhere.com/
