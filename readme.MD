@@ -47,7 +47,7 @@ This part focusses on modeling the price prediction fo crude oil prices. We used
 
 <b>Milestone 5:</b> Deployment
 
-Once we done with the modelling, it's time to deploy our model in Kivy and Flask. Kivy and Flask are framework for application and web development. 
+Once we done with the modelling, it's time to deploy our model in Kivy and Flask. Kivy and Flask are framework for application and web development. To use it, we need to install the libraries and some dependencies. For kivy development, we will be using the kv file extension for putting our widget for the application. Basically, kivy uses widget. If we want to add another widget, we can just simply add one such as Button, Label, or even GridLayout. You can put widget inside an another widget.
 * Youtube video: <a href="https://youtu.be/BscIYNKPtC0">Deploying Machine Learning Model in Mobile App using Kivy</a>
 * Source code: <a href="https://github.com/muhdamirulsamsul/DataMining/tree/master/kivy_project">kivy_project</a> & <a href="https://github.com/MYUMDATASCIENCE/DATAMINING/tree/master/MILESTONE5">Flask</a>
 * Visit our website: http://wqd190018.pythonanywhere.com/
