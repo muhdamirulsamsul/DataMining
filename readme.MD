@@ -43,6 +43,7 @@ This part focusses on modeling the price prediction fo crude oil prices. We used
 * Python code: 
 <a href="https://github.com/muhdamirulsamsul/DataMining/blob/master/WTI%20Prediction%20(LSTM).ipynb">Predicting WTI Price using LSTM</a> &
 <a href="https://github.com/muhdamirulsamsul/DataMining/blob/master/WTI%20Closing%20Price%20Prediction%20(SVM%20%26%20LR).ipynb">Predicting WTI Price using SVM and LR</a>
+* Youtube: https://youtu.be/FNtXvRLqGrI
 
 <b>Milestone 5:</b> Deployment
 
