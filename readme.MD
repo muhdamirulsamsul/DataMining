@@ -53,3 +53,4 @@ Once we done with the modelling, it's time to deploy our model in Kivy and Flask
 
 Some of myapps display:
 <img src="https://github.com/muhdamirulsamsul/DataMining/blob/master/page1.png">
+<img src="https://github.com/muhdamirulsamsul/DataMining/blob/master/page2.png
