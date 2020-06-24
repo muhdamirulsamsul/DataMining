@@ -52,6 +52,7 @@ Once we done with the modelling, it's time to deploy our model in Kivy and Flask
 * Visit our website: http://wqd190018.pythonanywhere.com/
 
 Some of my apps display:
+
 <img src="https://github.com/muhdamirulsamsul/DataMining/blob/master/page1.png">
 <img src="https://github.com/muhdamirulsamsul/DataMining/blob/master/page2.png">
 <img src="https://github.com/muhdamirulsamsul/DataMining/blob/master/page3.png">
