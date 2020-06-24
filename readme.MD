@@ -35,7 +35,7 @@ Once our data is inserted in Hive, we can acces it through Python by using libra
 * Python code: <a href="https://github.com/muhdamirulsamsul/DataMining/blob/master/ConnHive.ipynb">here</a>
 * Instruction: <a href="https://github.com/muhdamirulsamsul/DataMining/blob/master/howpyhive.txt">Installing PyHive</a>
 * Youtube video: <a href="https://youtu.be/vsGvP_vGuTo">Connect to Apache Hive using PyHive</a>
-
+* Others: <a href="https://github.com/MYUMDATASCIENCE/DATAMINING/blob/master/MILESTONE%205%20-%20DOCUMENTATION%20AND%20SCREENSHOT.pdf">Setting HiveServer2</a>
 
 <b>Milestone 4:</b> Modeling
 
